@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=TicTacToe
+comment0.text=\r\n\ A\ class\ modelling\ a\ tic-tac-toe\r\n\ \r\n\ @author\ Jatin\ Jain\ -\ 101184197\r\n\ @version\ March\ 30,\ 2022\r\n
+comment1.params=
+comment1.target=TicTacToe()
+comment1.text=\ \r\n\ Constructs\ a\ new\ Tic-Tac-Toe\ board.\r\n
+comment2.params=
+comment2.target=void\ playGame()
+comment2.text=\r\n\ Plays\ one\ game\ of\ Tic\ Tac\ Toe.\r\n
+comment3.params=row\ col
+comment3.target=boolean\ haveWinner(int,\ int)
+comment3.text=\r\n\ Returns\ true\ if\ filling\ the\ given\ square\ gives\ us\ a\ winner,\ and\ false\r\n\ otherwise.\r\n\r\n\ @param\ int\ row\ of\ square\ just\ set\r\n\ @param\ int\ col\ of\ square\ just\ set\r\n\ \r\n\ @return\ true\ if\ we\ have\ a\ winner,\ false\ otherwise\r\n
+comment4.params=e
+comment4.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment4.text=\r\n\ Performs\ action\ when\ button\ or\ menu\ item\ is\ clicked\ \r\n\ @param\ ActionEvent\ e\ the\ event\ received\ by\ Action\ Listener\r\n
+comment5.params=e
+comment5.target=void\ mouseEntered(java.awt.event.MouseEvent)
+comment5.text=\r\n\ Detects\ when\ the\ mouse\ enters\ the\ component.\ \ We\ are\ only\ "listening"\ to\ the\r\n\ JMenu.\ \ We\ highlight\ the\ menu\ name\ when\ the\ mouse\ goes\ into\ that\ component.\r\n\ \r\n\ @param\ e\ The\ mouse\ event\ triggered\ when\ the\ mouse\ was\ moved\ into\ the\ component\r\n
+comment6.params=e
+comment6.target=void\ mouseExited(java.awt.event.MouseEvent)
+comment6.text=\r\n\ Detects\ when\ the\ mouse\ exits\ the\ component.\ \ We\ are\ only\ "listening"\ to\ the\r\n\ JMenu.\ \ We\ stop\ highlighting\ the\ menu\ name\ when\ the\ mouse\ exits\ \ that\ component.\r\n\ \r\n\ @param\ e\ The\ mouse\ event\ triggered\ when\ the\ mouse\ was\ moved\ out\ of\ the\ component\r\n
+numComments=7
